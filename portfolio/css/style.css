@@ -416,7 +416,7 @@ body.fixed {
 	background-color: #222;
 }
 #start .main_slider .page_control a {
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	z-index: 10;
 	letter-spacing: 9px;
@@ -425,11 +425,11 @@ body.fixed {
 	writing-mode: vertical-rl;
 }
 #start .main_slider .page_control a.bt_prev {
-	left: 20px;
+	left: -20%;
 	transform: translateY(-50%) rotate(-180deg);
 }
 #start .main_slider .page_control a.bt_next {
-	right: 20px;
+	right: -20%;
 	transform: translateY(-50%);
 }
 #start .port_guide .inner {
@@ -451,9 +451,9 @@ body.fixed {
 }
 #start .port_guide .inner > a {
 	display: block;
-	width: 170px;
+	width: 150px;
 	height: auto;
-	padding: 65px 0;
+	padding: 60px 0;
 	border-radius: 50%;
 	background-color: #000;
 	font-size: 17px;
@@ -1017,7 +1017,6 @@ body.fixed {
 	z-index: 10;
 }
 .site_content .inner .bottom_line .bt_prev {
-	opacity: 0.3;
 	left: 20px;
 	transform: translateY(-50%) rotate(-180deg);
 }
