@@ -1124,6 +1124,19 @@ body.fixed {
 	line-height: 24px;
 	letter-spacing: -0.3px;
 }
+.site_content .inner .detail .detail_inner a {
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	transition: 0.4s;
+}
+.site_content .inner .detail .detail_inner a:hover {
+	background-color: #fff;
+	color: #000;
+}
 .site_content .inner .detail .main1 {
 	position: relative;
 	padding-bottom: 276px;
