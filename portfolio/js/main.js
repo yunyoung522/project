@@ -246,6 +246,4 @@ $(function(){
    let [prevBtn, nextBtn]=control.children;
    console.log(prevBtn, nextBtn);
 });
-
-
  */
